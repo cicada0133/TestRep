@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фруктовый матч — три в ряд</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">МАЛЕНЬКАЯ ИГРА ДЛЯ ПЕРЕРЫВА</p>
+    <h1>Фруктовый матч 🍒</h1>
+    <p>Меняй местами соседние фрукты и собирай три или больше в ряд.</p>
+    <div class="toolbar">
+      <strong>Очки: <span id="score">0</span></strong>
+      <button id="restart" type="button">Новая игра ↻</button>
+    </div>
+    <div id="board" aria-label="Игровое поле 8 на 8"></div>
+    <p id="message" role="status">Выбери фрукт, затем соседний.</p>
+    <small>10 очков за каждый собранный фрукт · Играй сколько хочется</small>
+  </main>
+</body>
+</html>
